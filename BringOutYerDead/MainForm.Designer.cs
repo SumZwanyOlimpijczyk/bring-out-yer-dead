@@ -29,155 +29,172 @@ namespace BringOutYerDead
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Characters_List = new System.Windows.Forms.ListBox();
+            this.Add_button = new System.Windows.Forms.Button();
+            this.Name_textbox = new System.Windows.Forms.TextBox();
+            this.Age_textbox = new System.Windows.Forms.TextBox();
+            this.Sex_combobox = new System.Windows.Forms.ComboBox();
+            this.Edit_button = new System.Windows.Forms.Button();
+            this.Death_list = new System.Windows.Forms.ListBox();
+            this.Deaths_label = new System.Windows.Forms.Label();
+            this.Death_button = new System.Windows.Forms.Button();
+            this.Birth_button = new System.Windows.Forms.Button();
+            this.Births_label = new System.Windows.Forms.Label();
+            this.Birth_list = new System.Windows.Forms.ListBox();
+            this.Date_textbox = new System.Windows.Forms.TextBox();
+            this.Modifier_textbox = new System.Windows.Forms.TextBox();
+            this.Remove_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listBox1
+            // Characters_List
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(244, 433);
-            this.listBox1.TabIndex = 0;
+            this.Characters_List.FormattingEnabled = true;
+            this.Characters_List.Location = new System.Drawing.Point(12, 12);
+            this.Characters_List.Name = "Characters_List";
+            this.Characters_List.Size = new System.Drawing.Size(244, 433);
+            this.Characters_List.TabIndex = 0;
             // 
-            // button1
+            // Add_button
             // 
-            this.button1.Location = new System.Drawing.Point(368, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Add_button.Location = new System.Drawing.Point(368, 12);
+            this.Add_button.Name = "Add_button";
+            this.Add_button.Size = new System.Drawing.Size(75, 23);
+            this.Add_button.TabIndex = 1;
+            this.Add_button.Text = "Add";
+            this.Add_button.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Name_textbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(262, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.Name_textbox.AccessibleName = "";
+            this.Name_textbox.Location = new System.Drawing.Point(262, 12);
+            this.Name_textbox.Name = "Name_textbox";
+            this.Name_textbox.Size = new System.Drawing.Size(100, 20);
+            this.Name_textbox.TabIndex = 2;
+            this.Name_textbox.Text = "Character name";
             // 
-            // textBox3
+            // Age_textbox
             // 
-            this.textBox3.Location = new System.Drawing.Point(262, 64);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 4;
+            this.Age_textbox.Location = new System.Drawing.Point(262, 62);
+            this.Age_textbox.Name = "Age_textbox";
+            this.Age_textbox.Size = new System.Drawing.Size(100, 20);
+            this.Age_textbox.TabIndex = 4;
+            this.Age_textbox.Text = "Character age";
             // 
-            // comboBox1
+            // Sex_combobox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(262, 38);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 6;
+            this.Sex_combobox.FormattingEnabled = true;
+            this.Sex_combobox.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.Sex_combobox.Location = new System.Drawing.Point(262, 37);
+            this.Sex_combobox.Name = "Sex_combobox";
+            this.Sex_combobox.Size = new System.Drawing.Size(100, 21);
+            this.Sex_combobox.TabIndex = 6;
             // 
-            // button2
+            // Edit_button
             // 
-            this.button2.Location = new System.Drawing.Point(368, 51);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Edit_button.Location = new System.Drawing.Point(368, 37);
+            this.Edit_button.Name = "Edit_button";
+            this.Edit_button.Size = new System.Drawing.Size(75, 23);
+            this.Edit_button.TabIndex = 7;
+            this.Edit_button.Text = "Edit";
+            this.Edit_button.UseVisualStyleBackColor = true;
             // 
-            // listBox2
+            // Death_list
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(262, 142);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(204, 303);
-            this.listBox2.TabIndex = 8;
+            this.Death_list.FormattingEnabled = true;
+            this.Death_list.Location = new System.Drawing.Point(262, 142);
+            this.Death_list.Name = "Death_list";
+            this.Death_list.Size = new System.Drawing.Size(204, 303);
+            this.Death_list.TabIndex = 8;
             // 
-            // label1
+            // Deaths_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(263, 117);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
+            this.Deaths_label.AutoSize = true;
+            this.Deaths_label.Location = new System.Drawing.Point(263, 117);
+            this.Deaths_label.Name = "Deaths_label";
+            this.Deaths_label.Size = new System.Drawing.Size(41, 13);
+            this.Deaths_label.TabIndex = 9;
+            this.Deaths_label.Text = "Deaths";
             // 
-            // button3
+            // Death_button
             // 
-            this.button3.Location = new System.Drawing.Point(304, 112);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(162, 23);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Death_button.Location = new System.Drawing.Point(304, 112);
+            this.Death_button.Name = "Death_button";
+            this.Death_button.Size = new System.Drawing.Size(162, 23);
+            this.Death_button.TabIndex = 10;
+            this.Death_button.Text = "Simulate Deaths";
+            this.Death_button.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Birth_button
             // 
-            this.button4.Location = new System.Drawing.Point(510, 112);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(162, 23);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Birth_button.Location = new System.Drawing.Point(514, 112);
+            this.Birth_button.Name = "Birth_button";
+            this.Birth_button.Size = new System.Drawing.Size(162, 23);
+            this.Birth_button.TabIndex = 13;
+            this.Birth_button.Text = "Simulate Births";
+            this.Birth_button.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // Births_label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(469, 117);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "label2";
+            this.Births_label.AutoSize = true;
+            this.Births_label.Location = new System.Drawing.Point(473, 117);
+            this.Births_label.Name = "Births_label";
+            this.Births_label.Size = new System.Drawing.Size(33, 13);
+            this.Births_label.TabIndex = 12;
+            this.Births_label.Text = "Births";
             // 
-            // listBox3
+            // Birth_list
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(472, 142);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(204, 303);
-            this.listBox3.TabIndex = 11;
+            this.Birth_list.FormattingEnabled = true;
+            this.Birth_list.Location = new System.Drawing.Point(472, 142);
+            this.Birth_list.Name = "Birth_list";
+            this.Birth_list.Size = new System.Drawing.Size(204, 303);
+            this.Birth_list.TabIndex = 11;
             // 
-            // textBox2
+            // Date_textbox
             // 
-            this.textBox2.Location = new System.Drawing.Point(682, 142);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 14;
+            this.Date_textbox.Location = new System.Drawing.Point(682, 142);
+            this.Date_textbox.Name = "Date_textbox";
+            this.Date_textbox.Size = new System.Drawing.Size(100, 20);
+            this.Date_textbox.TabIndex = 14;
             // 
-            // textBox4
+            // Modifier_textbox
             // 
-            this.textBox4.Location = new System.Drawing.Point(682, 168);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 15;
+            this.Modifier_textbox.Location = new System.Drawing.Point(682, 168);
+            this.Modifier_textbox.Name = "Modifier_textbox";
+            this.Modifier_textbox.Size = new System.Drawing.Size(100, 20);
+            this.Modifier_textbox.TabIndex = 15;
+            // 
+            // Remove_button
+            // 
+            this.Remove_button.Location = new System.Drawing.Point(368, 62);
+            this.Remove_button.Name = "Remove_button";
+            this.Remove_button.Size = new System.Drawing.Size(75, 23);
+            this.Remove_button.TabIndex = 16;
+            this.Remove_button.Text = "Remove";
+            this.Remove_button.UseVisualStyleBackColor = true;
             // 
             // BringOutYerDead
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 450);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.listBox3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.Remove_button);
+            this.Controls.Add(this.Modifier_textbox);
+            this.Controls.Add(this.Date_textbox);
+            this.Controls.Add(this.Birth_button);
+            this.Controls.Add(this.Births_label);
+            this.Controls.Add(this.Birth_list);
+            this.Controls.Add(this.Death_button);
+            this.Controls.Add(this.Deaths_label);
+            this.Controls.Add(this.Death_list);
+            this.Controls.Add(this.Edit_button);
+            this.Controls.Add(this.Sex_combobox);
+            this.Controls.Add(this.Age_textbox);
+            this.Controls.Add(this.Name_textbox);
+            this.Controls.Add(this.Add_button);
+            this.Controls.Add(this.Characters_List);
             this.Name = "BringOutYerDead";
             this.Text = "BringOutYerDead";
             this.ResumeLayout(false);
@@ -187,20 +204,21 @@ namespace BringOutYerDead
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ListBox Characters_List;
+        private System.Windows.Forms.Button Add_button;
+        private System.Windows.Forms.TextBox Name_textbox;
+        private System.Windows.Forms.TextBox Age_textbox;
+        private System.Windows.Forms.ComboBox Sex_combobox;
+        private System.Windows.Forms.Button Edit_button;
+        private System.Windows.Forms.ListBox Death_list;
+        private System.Windows.Forms.Label Deaths_label;
+        private System.Windows.Forms.Button Death_button;
+        private System.Windows.Forms.Button Birth_button;
+        private System.Windows.Forms.Label Births_label;
+        private System.Windows.Forms.ListBox Birth_list;
+        private System.Windows.Forms.TextBox Date_textbox;
+        private System.Windows.Forms.TextBox Modifier_textbox;
+        private System.Windows.Forms.Button Remove_button;
     }
 }
 
