@@ -70,7 +70,6 @@ namespace BringOutYerDead
             this.Name_textbox.Name = "Name_textbox";
             this.Name_textbox.Size = new System.Drawing.Size(100, 20);
             this.Name_textbox.TabIndex = 2;
-            this.Name_textbox.Text = "Character name";
             // 
             // Age_textbox
             // 
@@ -78,7 +77,6 @@ namespace BringOutYerDead
             this.Age_textbox.Name = "Age_textbox";
             this.Age_textbox.Size = new System.Drawing.Size(100, 20);
             this.Age_textbox.TabIndex = 4;
-            this.Age_textbox.Text = "Character age";
             // 
             // Sex_combobox
             // 
