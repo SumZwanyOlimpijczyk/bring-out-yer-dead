@@ -1,0 +1,10 @@
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\bin\Debug\BringOutYerDead.exe.config
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\bin\Debug\BringOutYerDead.exe
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\bin\Debug\BringOutYerDead.pdb
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\obj\Debug\BringOutYerDead.csproj.AssemblyReference.cache
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\obj\Debug\BringOutYerDead.BringOutYerDead.resources
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\obj\Debug\BringOutYerDead.Properties.Resources.resources
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\obj\Debug\BringOutYerDead.csproj.GenerateResource.cache
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\obj\Debug\BringOutYerDead.csproj.CoreCompileInputs.cache
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\obj\Debug\BringOutYerDead.exe
+C:\Users\Michal\source\repos\bring-out-yer-dead\BringOutYerDead\obj\Debug\BringOutYerDead.pdb
