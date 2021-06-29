@@ -62,6 +62,7 @@ namespace BringOutYerDead
             this.Add_button.TabIndex = 1;
             this.Add_button.Text = "Add";
             this.Add_button.UseVisualStyleBackColor = true;
+            this.Add_button.Click += new System.EventHandler(this.Add_button_Click);
             // 
             // Name_textbox
             // 
@@ -109,7 +110,7 @@ namespace BringOutYerDead
             // Deaths_label
             // 
             this.Deaths_label.AutoSize = true;
-            this.Deaths_label.Location = new System.Drawing.Point(263, 117);
+            this.Deaths_label.Location = new System.Drawing.Point(262, 117);
             this.Deaths_label.Name = "Deaths_label";
             this.Deaths_label.Size = new System.Drawing.Size(41, 13);
             this.Deaths_label.TabIndex = 9;
@@ -136,7 +137,7 @@ namespace BringOutYerDead
             // Births_label
             // 
             this.Births_label.AutoSize = true;
-            this.Births_label.Location = new System.Drawing.Point(473, 117);
+            this.Births_label.Location = new System.Drawing.Point(475, 117);
             this.Births_label.Name = "Births_label";
             this.Births_label.Size = new System.Drawing.Size(33, 13);
             this.Births_label.TabIndex = 12;

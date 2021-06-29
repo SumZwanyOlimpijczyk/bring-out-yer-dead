@@ -16,5 +16,10 @@ namespace BringOutYerDead
         {
             InitializeComponent();
         }
+
+        private void Add_button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
