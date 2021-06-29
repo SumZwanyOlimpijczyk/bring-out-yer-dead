@@ -44,6 +44,8 @@ namespace BringOutYerDead
             this.Date_textbox = new System.Windows.Forms.TextBox();
             this.Modifier_textbox = new System.Windows.Forms.TextBox();
             this.Remove_button = new System.Windows.Forms.Button();
+            this.LoadData_button = new System.Windows.Forms.Button();
+            this.SaveData_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Characters_List
@@ -98,6 +100,7 @@ namespace BringOutYerDead
             this.Edit_button.TabIndex = 7;
             this.Edit_button.Text = "Edit";
             this.Edit_button.UseVisualStyleBackColor = true;
+            this.Edit_button.Click += new System.EventHandler(this.Edit_button_Click);
             // 
             // Death_list
             // 
@@ -124,6 +127,7 @@ namespace BringOutYerDead
             this.Death_button.TabIndex = 10;
             this.Death_button.Text = "Simulate Deaths";
             this.Death_button.UseVisualStyleBackColor = true;
+            this.Death_button.Click += new System.EventHandler(this.Death_button_Click);
             // 
             // Birth_button
             // 
@@ -133,6 +137,7 @@ namespace BringOutYerDead
             this.Birth_button.TabIndex = 13;
             this.Birth_button.Text = "Simulate Births";
             this.Birth_button.UseVisualStyleBackColor = true;
+            this.Birth_button.Click += new System.EventHandler(this.Birth_button_Click);
             // 
             // Births_label
             // 
@@ -173,12 +178,33 @@ namespace BringOutYerDead
             this.Remove_button.TabIndex = 16;
             this.Remove_button.Text = "Remove";
             this.Remove_button.UseVisualStyleBackColor = true;
+            this.Remove_button.Click += new System.EventHandler(this.Remove_button_Click);
+            // 
+            // LoadData_button
+            // 
+            this.LoadData_button.Location = new System.Drawing.Point(709, 415);
+            this.LoadData_button.Name = "LoadData_button";
+            this.LoadData_button.Size = new System.Drawing.Size(75, 23);
+            this.LoadData_button.TabIndex = 17;
+            this.LoadData_button.Text = "Load Data";
+            this.LoadData_button.UseVisualStyleBackColor = true;
+            // 
+            // SaveData_button
+            // 
+            this.SaveData_button.Location = new System.Drawing.Point(709, 386);
+            this.SaveData_button.Name = "SaveData_button";
+            this.SaveData_button.Size = new System.Drawing.Size(75, 23);
+            this.SaveData_button.TabIndex = 18;
+            this.SaveData_button.Text = "Save Data";
+            this.SaveData_button.UseVisualStyleBackColor = true;
             // 
             // BringOutYerDead
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 450);
+            this.Controls.Add(this.SaveData_button);
+            this.Controls.Add(this.LoadData_button);
             this.Controls.Add(this.Remove_button);
             this.Controls.Add(this.Modifier_textbox);
             this.Controls.Add(this.Date_textbox);
@@ -218,6 +244,8 @@ namespace BringOutYerDead
         private System.Windows.Forms.TextBox Date_textbox;
         private System.Windows.Forms.TextBox Modifier_textbox;
         private System.Windows.Forms.Button Remove_button;
+        private System.Windows.Forms.Button LoadData_button;
+        private System.Windows.Forms.Button SaveData_button;
     }
 }
 

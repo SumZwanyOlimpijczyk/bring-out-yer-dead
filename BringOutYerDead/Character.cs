@@ -12,14 +12,14 @@ namespace BringOutYerDead
         private int age;
         private bool sex;
 
-        Character()
+        public Character()
         {
             this.name = null;
             this.age = 0;
             this.sex = false;
         }
 
-        Character(string _name,int _age, bool _sex)
+        public Character(string _name,int _age, bool _sex)
         {
             this.name = _name;
             this.age = _age;
