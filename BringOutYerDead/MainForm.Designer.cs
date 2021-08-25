@@ -32,7 +32,7 @@ namespace BringOutYerDead
             this.Characters_List = new System.Windows.Forms.ListBox();
             this.Add_button = new System.Windows.Forms.Button();
             this.Name_textbox = new System.Windows.Forms.TextBox();
-            this.Age_textbox = new System.Windows.Forms.TextBox();
+            this.BirthDate_textbox = new System.Windows.Forms.TextBox();
             this.Sex_combobox = new System.Windows.Forms.ComboBox();
             this.Edit_button = new System.Windows.Forms.Button();
             this.Death_list = new System.Windows.Forms.ListBox();
@@ -73,13 +73,15 @@ namespace BringOutYerDead
             this.Name_textbox.Name = "Name_textbox";
             this.Name_textbox.Size = new System.Drawing.Size(100, 20);
             this.Name_textbox.TabIndex = 2;
+            this.Name_textbox.Text = "Name";
             // 
-            // Age_textbox
+            // BirthDate_textbox
             // 
-            this.Age_textbox.Location = new System.Drawing.Point(262, 62);
-            this.Age_textbox.Name = "Age_textbox";
-            this.Age_textbox.Size = new System.Drawing.Size(100, 20);
-            this.Age_textbox.TabIndex = 4;
+            this.BirthDate_textbox.Location = new System.Drawing.Point(262, 62);
+            this.BirthDate_textbox.Name = "BirthDate_textbox";
+            this.BirthDate_textbox.Size = new System.Drawing.Size(100, 20);
+            this.BirthDate_textbox.TabIndex = 4;
+            this.BirthDate_textbox.Text = "Birth date";
             // 
             // Sex_combobox
             // 
@@ -162,6 +164,7 @@ namespace BringOutYerDead
             this.Date_textbox.Name = "Date_textbox";
             this.Date_textbox.Size = new System.Drawing.Size(100, 20);
             this.Date_textbox.TabIndex = 14;
+            this.Date_textbox.Text = "Date";
             // 
             // Modifier_textbox
             // 
@@ -169,6 +172,7 @@ namespace BringOutYerDead
             this.Modifier_textbox.Name = "Modifier_textbox";
             this.Modifier_textbox.Size = new System.Drawing.Size(100, 20);
             this.Modifier_textbox.TabIndex = 15;
+            this.Modifier_textbox.Text = "Modifier";
             // 
             // Remove_button
             // 
@@ -216,7 +220,7 @@ namespace BringOutYerDead
             this.Controls.Add(this.Death_list);
             this.Controls.Add(this.Edit_button);
             this.Controls.Add(this.Sex_combobox);
-            this.Controls.Add(this.Age_textbox);
+            this.Controls.Add(this.BirthDate_textbox);
             this.Controls.Add(this.Name_textbox);
             this.Controls.Add(this.Add_button);
             this.Controls.Add(this.Characters_List);
@@ -232,7 +236,7 @@ namespace BringOutYerDead
         private System.Windows.Forms.ListBox Characters_List;
         private System.Windows.Forms.Button Add_button;
         private System.Windows.Forms.TextBox Name_textbox;
-        private System.Windows.Forms.TextBox Age_textbox;
+        private System.Windows.Forms.TextBox BirthDate_textbox;
         private System.Windows.Forms.ComboBox Sex_combobox;
         private System.Windows.Forms.Button Edit_button;
         private System.Windows.Forms.ListBox Death_list;

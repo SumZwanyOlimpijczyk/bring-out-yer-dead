@@ -9,20 +9,20 @@ namespace BringOutYerDead
     class Character
     {
         private string name;
-        private int age;
+        private int birthdate;
         private bool sex;
 
         public Character()
         {
             this.name = null;
-            this.age = 0;
+            this.birthdate = 0;
             this.sex = false;
         }
 
-        public Character(string _name,int _age, bool _sex)
+        public Character(string _name,int _birthdate, bool _sex)
         {
             this.name = _name;
-            this.age = _age;
+            this.birthdate = _birthdate;
             this.sex = _sex;
         }
 
@@ -33,9 +33,9 @@ namespace BringOutYerDead
             return name;
         }
 
-        int GetAge()
+        int GetBirthdate()
         {
-            return age;
+            return birthdate;
         }
 
         bool GetSex()
@@ -43,15 +43,15 @@ namespace BringOutYerDead
             return sex;
         }
 
-        public void AddCharacter(string _name, int _age, bool _sex)
+        public void AddCharacter(string _name, int _birthdate, bool _sex)
         {
-            CharactersList.Add(new Character(_name,_age,_sex));
+            CharactersList.Add(new Character(_name,_birthdate,_sex));
         }
 
-        public void ModifyCharacter(string _name, int _age, bool _sex, int index)
+        public void ModifyCharacter(string _name, int _birthdate, bool _sex, int index)
         {
             CharactersList[index].name = _name;
-            CharactersList[index].age = _age;
+            CharactersList[index].birthdate = _birthdate;
             CharactersList[index].sex = _sex;
         }
 

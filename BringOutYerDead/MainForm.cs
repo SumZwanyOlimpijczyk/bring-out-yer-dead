@@ -22,7 +22,7 @@ namespace BringOutYerDead
 
         private void Add_button_Click(object sender, EventArgs e)
         {
-            Characters_List.Items.Add(Name_textbox.Text + " " + Sex_combobox.Text + " " + Age_textbox.Text);
+            Characters_List.Items.Add(Name_textbox.Text + " " + Sex_combobox.Text + " " + BirthDate_textbox.Text);
         }
 
         private void Edit_button_Click(object sender, EventArgs e)
